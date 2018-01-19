@@ -25,7 +25,8 @@ Download the latest docker image from here: https://hub.docker.com/r/giantswarm/
 
 - [github.com/russellcardullo/go-pingdom](https://github.com/russellcardullo/go-pingdom)
 - [github.com/prometheus/client_golang](https://github.com/prometheus/client_golang)
-- [github.com/spf13/cobra](https://github.com/spf13/cobra)
+- [github.com/prometheus/common](https://github.com/prometheus/common)
+- [gopkg.in/alecthomas/kingpin.v2](http://gopkg.in/alecthomas/kingpin.v2)
 
 #### Building the binary
 
@@ -36,7 +37,7 @@ make
 #### Building the docker image
 
 ```
-make docker-image
+make docker
 ```
 
 

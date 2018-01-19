@@ -1,5 +1,6 @@
 prometheus-pingdom-exporter
 .gobuild/
+.bundle/
 bin-dist/
 build/
 

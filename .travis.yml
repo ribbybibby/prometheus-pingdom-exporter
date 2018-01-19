@@ -22,8 +22,8 @@ before_install:
     - export PATH=$PATH:$PWD
 
 script:
-    - make ci-build
-    - ./prometheus-pingdom-exporter
+    - make
+    - ./prometheus-pingdom-exporter -h
 
 before_cache:
     - cp ./builder ./builder-cache/builder-$BUILDER_VERSION
